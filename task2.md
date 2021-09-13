@@ -30,7 +30,7 @@ A page with links to all homework assignments was created [here](homework_assigm
 ### Question 4:
 
 A program was written with Java to approximate the derivative of the function f '' (x) = -cos(x) using the central 
-difference approximation (CDA) method. The code is given [here]().
+difference approximation (CDA) method. The code is given [here](code/task2/approximator.java).
 
 
 
@@ -66,4 +66,4 @@ Using Python, a plot of the logged h value vs the logged error was acquired.
 
 ![alt text](images/task2/plot1.png)
 
-The slope of the error decrease was measured using the linregress method from the scipy.stats method (the code is available [here]()). The decreasing portion of the line had a slope of 1.997, or about 2. Because the slope of the line is arbitrarily close to 2, we confirm that this is a second order approximation.
+The slope of the error decrease was measured using the linregress method from the scipy.stats method (the code is available [here](code/task2/plot.py)). The decreasing portion of the line had a slope of 1.997, or about 2. Because the slope of the line is arbitrarily close to 2, we confirm that this is a second order approximation.
