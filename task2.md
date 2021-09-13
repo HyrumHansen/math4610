@@ -35,12 +35,12 @@ difference approximation (CDA) method. The code is given [here](code/task2/appro
 
 
 The values shown in the following table include the value of h,
-the true value of f '' (2), CDA of f '' (2) at 2 + h, and the difference
+the true value of f '' (2), CDA of f '' (x) at x = 2 + h, and the difference
 between the approximate and true value (error). 
 
 ```
                    h                Value         Approximate value                Error
-                (ΔX)               f''(x)                     (CDA)       (CDA - cos(2))
+                (ΔX)               f''(2)                     (CDA)       (CDA - cos(2))
                    -                -----         -----------------       --------------
             1.00e+00         0.4161468365         0.3826034824         0.0335433542
             5.00e-01         0.4161468365         0.4075490369         0.0085977997
