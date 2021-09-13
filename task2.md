@@ -62,6 +62,8 @@ between the approximate and true value (error).
             1.00e-16         0.4161468365         0.00                 0.4161468365
 ```
 The error tends to decrease with the value of h until h = .0001, at which point the error sharply increases. 
-Using Python, a plot of the logged h value vs the logged error was acquired.
+Using Python, a plot of the logged h value vs the logged error was acquired. 
 
 ![alt text](images/task2/plot1.png)
+
+The slope of the error decrease was measured using the linregress method from the scipy.stats method (the code is available [here]()). The slope of the line was 1.997, or about 2. Because the slope of the line is arbitrarily close to 2, we confirm that this is a second order approximation.
