@@ -22,7 +22,7 @@ public class task1 {
 
 ### Question 2:
 
-A page with links to all homework assignments was created [here](homework_assigments.md). A page to view the software manual was created [here](). 
+A page with links to all homework assignments was created [here](homework_assigments.md). A software manual was created [here](). 
 
 ### Question 3:
 
@@ -62,4 +62,6 @@ between the approximate and true value (error).
             1.00e-16         0.4161468365         0.00                 0.4161468365
 ```
 The error tends to decrease with the value of h until h = .0001, at which point the error sharply increases. 
-Using Python, a plot was acquired
+Using Python, a plot of the logged h value vs the logged error was acquired.
+
+![alt text](images/task2/plot1.png)
