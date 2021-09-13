@@ -72,3 +72,7 @@ The slope of the error decrease was measured using the linregress method from th
 ### Question 5:
 
 There are many finite difference approximation methods. One-sided approximations exist, such as the forward difference approximation and the backward difference approximation. These methods are not as accurate as the centered difference approximation, which subtracts the backward form the forward generally resulting in higher approximation accuracy. The centered difference approximation is a special case of a mixed-difference approximation.
+
+SOURCE: https://www.geometrictools.com/Documentation/FiniteDifferences.pdf
+
+SOURCE: https://www.dam.brown.edu/people/alcyew/handouts/numdiff.pdf
