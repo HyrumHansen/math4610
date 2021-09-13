@@ -26,6 +26,7 @@ A page with links to all homework assignments was created [here](homework_assigm
 
 ### Question 3:
 
+![alt text](images/task2/proof.jpg)
 
 ### Question 4:
 
