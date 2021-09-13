@@ -22,7 +22,7 @@ public class task1 {
 
 ### Question 2:
 
-A page with links to all homework assignments was created [here](). A page to view the software manual was created [here](). 
+A page with links to all homework assignments was created [here](homework_assigments.md). A page to view the software manual was created [here](). 
 
 ### Question 3:
 
@@ -30,7 +30,9 @@ A page with links to all homework assignments was created [here](). A page to vi
 ### Question 4:
 
 A program was written with Java to approximate the derivative of the function f '' (x) = -cos(x) using the central 
-difference approximation method (CDA). The code is given below.
+difference approximation (CDA) method. The code is given [here]().
+
+
 
 The values shown in the following table include the value of h,
 the true value of f '' (2), CDA of f '' (2) at 2 + h, and the difference
@@ -59,4 +61,5 @@ between the approximate and true value (error).
             1.00e-15         0.4161468365         2.77e14              2.77e14
             1.00e-16         0.4161468365         0.00                 0.4161468365
 ```
-
+The error tends to decrease with the value of h until h = .0001, at which point the error sharply increases. 
+Using Python, a plot was acquired
