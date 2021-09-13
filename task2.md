@@ -68,3 +68,7 @@ Using Python, a plot of the logged h value vs the logged error was acquired.
 ![alt text](images/task2/plot1.png)
 
 The slope of the error decrease was measured using the linregress method from the scipy.stats method (the code is available [here](code/task2/plot.py)). The decreasing portion of the line had a slope of 1.997, or about 2. Because the slope of the line is arbitrarily close to 2, we confirm that this is a second order approximation.
+
+### Question 5:
+
+There are many finite difference approximation methods. One-sided approximations exist, such as the forward difference approximation and the backward difference approximation. These methods are not as accurate as the centered difference approximation, which subtracts the backward form the forward generally resulting in higher approximation accuracy.
