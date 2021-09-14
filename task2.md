@@ -22,7 +22,7 @@ public class task1 {
 
 ### Question 2:
 
-A page with links to all homework assignments was created [here](homework_assigments.md). A software manual was created [here](). 
+A page with links to all homework assignments was created [here](homework_assigments.md). A software manual was created [here](software_manual.md). 
 
 ### Question 3:
 
