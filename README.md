@@ -5,4 +5,4 @@ Welcome to Hyrum Hansen's MATH 4610 code repository! Projects herein were create
 
 Please click [here](homework_assigments.md) to access homework assignments.
 
-Please click [here]() to access the software manual. 
+Please click [here](software_manual.md) to access the software manual. 
