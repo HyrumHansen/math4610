@@ -1,5 +1,6 @@
 # Math 4610 Software Manual
 
+***
 ### Task 2:
 
 #### The First One
@@ -24,3 +25,4 @@ error sharply increases due to computational limitations. The program also calcu
 second order approximation.
 
 [The Plot Generator](code/task2/plot.py)
+***
