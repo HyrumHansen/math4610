@@ -5,7 +5,7 @@
 
 ### Question 1:
 
-Using the Java programming language, a program was written to respond to the pythong line, "it's only a bunny...". The following block provides the code. Upon execution the text contained in the **printScreen()** method is written to the console.
+Using the Java programming language, a program was written to respond to the python line, "it's only a bunny...". The following block provides the code. Upon execution the text contained in the **printScreen()** method is written to the console.
 
 
 ```java
