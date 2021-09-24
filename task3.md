@@ -40,3 +40,5 @@ between the approximate and true value (error).
 ### Question 2:
 
 A log-log plot of the error was produced using matplotlib, the code for which may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task2/plot.py). As discussed above, the slope of the line suggests second order accuracy over a range where h > 0. The approximation begins to fail when h = 1e^-6 due to finite precision of arithmetic. 
+
+![alt text](images/task2/plot1.png)
