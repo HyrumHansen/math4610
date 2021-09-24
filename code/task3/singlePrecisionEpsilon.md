@@ -12,7 +12,7 @@
 
 **Output:** The method prints a new line for each loop iteration, halving epsilon and subtracting 1 + epsilon from the floating-point number 1.0.
 
-**Usage:** After importing the class doublePrecisionEpsilon into your program you need to instantiate the class and call the getSinglePrecision() method. For example,
+**Usage:** After importing the class singlePrecisionEpsilon into your program you need to instantiate the class and call the getSinglePrecision() method. For example,
 
 ```java
 public class test {
