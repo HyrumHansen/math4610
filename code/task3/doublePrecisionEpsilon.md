@@ -39,13 +39,13 @@ Counter: 54     Epsilon 0.0000000000000001
 public class doublePrecisionEpsilon {
 
     public void getDoublePrecision(){
-        float one = 1.0f;
-        float epsilon = 1.0f;
+        double one = 1.0;
+        double epsilon = 1.0;
 
         for(int i = 1; i < 1000; i++){
-            float difference = one - (one + epsilon);
+            double difference = one - (one + epsilon);
 
-            System.out.printf("Counter: %d     Epsilon %1.8f", i, epsilon);
+            System.out.printf("Counter: %d     Epsilon %1.16f", i, epsilon);
             System.out.println();
 
             if(difference == 0) break;
