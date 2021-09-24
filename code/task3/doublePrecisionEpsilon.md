@@ -29,8 +29,9 @@ The method will return some variation of the following:
 ```java
 Counter: 1      Epsilon 1.00000000
 Counter: 2      Epsilon 0.50000000
+.
 ...
-...
+.
 Counter: 25     Epsilon 0.00000006
 ```
 
