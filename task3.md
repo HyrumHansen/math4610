@@ -45,7 +45,7 @@ A log-log plot of the error was produced using matplotlib, the code for which ma
 
 ### Question 3: 
 
-Two separate Java classes were built, one to test the single precision setting of my machine and the other to test double precision. The following table gives the results from the single precision test function. The code for the function is available [here]().
+Two separate Java classes were built, one to test the single precision setting of my machine and the other to test double precision. The following table gives the results from the single precision test function. The software manual entry for the method is available [here](https://github.com/HyrumHansen/math4610/blob/main/code/task3/singlePrecisionEpsilon.md).
 
 ```java
 Counter: 1     Epsilon 1.00000000
@@ -136,4 +136,7 @@ Counter: 54     Epsilon 0.0000000000000001
 
 Double precision data took twice as many iterations to reach an epsilon that the machine determined was equal to zero, which is no deviation from expectation.
 
+### Question 4:
+
+A software manual was generated to store the routines that will be build over the semester. 
 
