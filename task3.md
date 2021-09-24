@@ -75,7 +75,7 @@ Counter: 24     Epsilon 0.00000012
 Counter: 25     Epsilon 0.00000006
 ```
 
-After 26 iterations of the loop, the primitive float datatype no longer had sufficient precision to continue calculation. The program determined that epsilon was equal to zero and broke out of the loop. The following table gives the results for the double precision test. The code for the function is available [here]().
+After 26 iterations of the loop, the primitive float datatype no longer had sufficient precision to continue calculation. The program determined that epsilon was equal to zero and broke out of the loop. The following table gives the results for the double precision test. The code for the function is available [here](https://github.com/HyrumHansen/math4610/blob/main/code/task3/doublePrecisionEpsilon.md).
 
 ```java
 Counter: 1     Epsilon 1.0000000000000000
