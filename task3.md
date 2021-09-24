@@ -6,7 +6,8 @@
 ### Question 1:
 
 For this task, it was verified computationally that the central difference approximation for the second derivative approximation defined in Task Sheet 2 is second order accurate. 
-This was done by obtaining a table of values describing the difference between the true function value and its central difference approximation.
+This was done by obtaining a table of values describing the difference between the true function value and its central difference approximation. Verification was completed 
+by calculating the slope of the line between the third and fifth data points, or the slope of the line between log(h) = log(1e^-1) and log(h) = log(1e^-3). The value was approximately 2.0004, suggesting second order accuracy.
 
 The values shown in the following table include the value of h,
 the true value of f '' (2), CDA of f '' (x) at x = 2 + h, and the difference
