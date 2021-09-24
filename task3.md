@@ -45,7 +45,7 @@ A log-log plot of the error was produced using matplotlib, the code for which ma
 
 ### Question 3: 
 
-Two separate Java classes were built, one to test the single precision setting of my machine and the other to test double precision. The following table gives the results from the single precision test function:
+Two separate Java classes were built, one to test the single precision setting of my machine and the other to test double precision. The following table gives the results from the single precision test function. The code for the function is available [here]().
 
 ```java
 Counter: 1     Epsilon 1.00000000
@@ -75,7 +75,7 @@ Counter: 24     Epsilon 0.00000012
 Counter: 25     Epsilon 0.00000006
 ```
 
-After 26 iterations of the loop, the primitive float datatype no longer had sufficient precision to continue calculation. The program determined that epsilon was equal to zero and broke out of the loop. The following table gives the results for the double precision test:
+After 26 iterations of the loop, the primitive float datatype no longer had sufficient precision to continue calculation. The program determined that epsilon was equal to zero and broke out of the loop. The following table gives the results for the double precision test. The code for the function is available [here]().
 
 ```java
 Counter: 1     Epsilon 1.0000000000000000
