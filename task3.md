@@ -148,8 +148,7 @@ $ mkdir software_manual
 $ cd software_manual
 
 $ New-Item -Path . -Name "table_of_contents.md" -ItemType "file"
-
-
-
 ```
+
+
 
