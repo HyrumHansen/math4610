@@ -138,5 +138,18 @@ Double precision data took twice as many iterations to reach an epsilon that the
 
 ### Question 4:
 
-A software manual was generated to store the routines that will be build over the semester. 
+A software manual was generated to store the routines that will be build over the semester.  The following powershell code was used to do so:
+
+```
+$ cd D:\compuational_math
+
+$ mkdir software_manual
+
+$ cd software_manual
+
+$ New-Item -Path . -Name "table_of_contents.md" -ItemType "file"
+
+
+
+```
 
