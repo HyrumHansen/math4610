@@ -182,6 +182,15 @@ doublePrecisionEpsilon.class
 doublePrecisionEpsilon.java
 ```
 
-When the follow
+### Question 6:
+
+The shared library is a useful tool to share files between multiple programs. Shared libraries can save compuational resources such as disk space and memory. The host library supplies the references to the files while the target shared library supplies the actual code.
+
+
+### Sources 
+
+https://stackoverflow.com/questions/2649334/difference-between-static-and-shared-libraries
+
+http://osr507doc.sco.com/en/tools/ShLib_WhatIs.html
 
 
