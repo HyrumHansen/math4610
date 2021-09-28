@@ -150,5 +150,38 @@ $ cd software_manual
 $ New-Item -Path . -Name "table_of_contents.md" -ItemType "file"
 ```
 
+### Question 5:
+
+The following commands were used in powershell to produce a shared library:
+
+```
+$ cd D:\computational_math\shared_library\java
+ 
+$ javac *.java
+
+$ vim new ObjectInventory.java
+```
+Manifest.MF file was created manually as an access point.
+
+```
+$ jar cfm MyJar.jar mainClass *.class
+
+$ jar tf MyJar.jar
+```
+
+The aforementioned command outputs the following:
+
+```
+META-INF/
+META-INF/MANIFEST.MF
+mainClass.class
+mainClass.java
+singlePrecisionEpsilon.class
+singlePrecisionEpsilon.java
+doublePrecisionEpsilon.class
+doublePrecisionEpsilon.java
+```
+
+When the follow
 
 
