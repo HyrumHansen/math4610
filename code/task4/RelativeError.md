@@ -12,7 +12,7 @@
 
 **Output:** The method returns a value of type double.
 
-**Usage:** After importing the RelError into your program you need to instantiate the class and call the calcRelError() method. For example,
+**Usage:** After importing the RelError class into your program you need to instantiate it and call the calcRelError() method. For example,
 
 ```java
 public class test {
@@ -26,7 +26,7 @@ public class test {
 For the approximation above, the following is output:
 
 ```java
-0.3000000000000007
+0.03448275862068974
 ```
 
 **Implementation:**
