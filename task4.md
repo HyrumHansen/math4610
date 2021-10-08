@@ -18,4 +18,5 @@ click [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/FixedP
 
 ### Question 4:
 
-Fixed point iteration was applied to the function f(x) = xe^{3x^2} - 7x.
+Fixed point iteration was applied to the function f(x) = xe^{3x^2} - 7x. The algorithm did not return a solution. Because |g'(x)| > 1 at x = 0, we have to include  an appropriate value of *e* such that xNew = x0 - *e* * f(x).
+
