@@ -10,8 +10,11 @@
 
 **Input:** The fixedPointRoot method in the FixedPointIteration class takes four arguments:
 1. **FunctionObject f:** This parameter must be an object of class FunctionObject. This class contains a .functionValue(double x) method which returns the value of the function at x.
+2. **double x0:** This is an initial "guess" at the function's root. 
+3. **double tolerance:** The while loop will terminate and output the approximate x-value if the error is less than the tolerance.
+4. **double maxIterations:** The maximum number of iterations
 
-**Output:** The method returns a value of type double.
+**Output:** The method returns a value of type double, which is the .
 
 **Usage:** After importing the RelError class into your program you need to instantiate it and call the calcRelError() method. For example,
 
