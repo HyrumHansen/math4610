@@ -25,16 +25,27 @@ public class main {
         FunctionObject function = new FunctionObject();
 
         FixedPointIteration testObject = new FixedPointIteration();
-        double result = testObject.fixedPointRoot(function, 0.5, 0.001, 30);
-        System.out.println(result);
+        double result = testObject.fixedPointRoot(function, 4.5, 0.001, 30);
+        System.out.printf("\n\nRoot: %f", result);
     }
 }
 ```
 
-For the approximation above, the following is output:
+The output for the code above (which approximates the root of 0.1x^2 - 7) is shown below.
 
 ```java
-0.03448275862068974
+ Error 1: 2.975000
+ Error 2: 0.587562
+ Error 3: 0.256320
+ Error 4: 0.103328
+ Error 5: 0.043234
+ Error 6: 0.017830
+ Error 7: 0.007399
+ Error 8: 0.003062
+ Error 9: 0.001269
+ Error 10: 0.000526
+
+ Root: 7.070914
 ```
 
 **Implementation:**
