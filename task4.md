@@ -13,3 +13,9 @@ Two Java classes were built. One calculates the absolute error of an approximati
 ### Question 3: 
 
 A Java program was written to approximate a function's root using the fixed-point-iteration method. The method .fixedPointRoot() is contained in class FixedPointIteration. This function is not reliable for every function; the error increases for some. Only when |g'(x)| < 1 will the fixed-point iteration method converge to a root which can be proven via Taylor Series expansion.
+
+click [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/FixedPointIteration.md) for details.
+
+### Question 4:
+
+Fixed point iteration was applied to the function f(x) = xe^{3x^2} - 7x.
