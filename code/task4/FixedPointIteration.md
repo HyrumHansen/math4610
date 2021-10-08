@@ -53,9 +53,27 @@ The output for the code above (which approximates the root of 0.1x^2 - 7) is sho
 ```java
 import java.lang.Math;
 
-public class RelError {
-    public double calcRelError(double x, double y){
-        return Math.abs((x - y) / y);
+public class FixedPointIteration {
+
+    public double fixedPointRoot(FunctionObject f, double x0, double tolerance, double maxIterations) {
+
+        // Initialize variables
+        double error = 10000000;
+        int iterations = 0;
+        double xNew = 0;
+
+        // The workhorse of the method
+        while (error > tolerance && iterations < maxIterations) {
+            iterations++;
+            xNew = x0 - f.functionValue(x0);
+            error = Math.abs(xNew - x0);
+            System.out.printf("\n Error %s: %f", iterations, error);
+            x0 = xNew;
+
+        }
+
+        return xNew;
+
     }
 }
 ```
