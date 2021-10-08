@@ -58,16 +58,28 @@ public class FixedPointIteration {
     public double fixedPointRoot(FunctionObject f, double x0, double tolerance, double maxIterations) {
 
         // Initialize variables
-        double error = 10000000;
+        double error = 10 * tolerance;
         int iterations = 0;
         double xNew = 0;
 
         // The workhorse of the method
         while (error > tolerance && iterations < maxIterations) {
             iterations++;
+
+            // Calculate the new X value for the new approximation
+            // ---------------------------------------------------
             xNew = x0 - f.functionValue(x0);
+            
+            // Find its error using the difference between iterates
+            // ----------------------------------------------------
             error = Math.abs(xNew - x0);
+            
+            // Print the error for the current iteration
+            // -----------------------------------------
             System.out.printf("\n Error %s: %f", iterations, error);
+            
+            // Set the input value to the new approximation
+            // --------------------------------------------
             x0 = xNew;
 
         }
