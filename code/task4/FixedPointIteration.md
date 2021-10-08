@@ -34,18 +34,15 @@ public class main {
 The output for the code above (which approximates the root of 0.1x^2 - 7) is shown below. The while loop does not continue until reaching the maximum iteration; rather, it terminates once the error is less than the tolerance (0.0001).
 
 ```java
- Error 1: 2.975000
- Error 2: 0.587562
- Error 3: 0.256320
- Error 4: 0.103328
- Error 5: 0.043234
- Error 6: 0.017830
- Error 7: 0.007399
- Error 8: 0.003062
- Error 9: 0.001269
- Error 10: 0.000526
+ Error 1: 4.975000
+ Error 2: 1.977562
+ Error 3: 1.378843
+...
+ Error 20: 0.001577
+ Error 21: 0.001062
+ Error 22: 0.000715
 
- Root: 7.070914
+Root: 8.366313
 ```
 
 **Implementation:**
