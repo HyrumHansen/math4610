@@ -9,20 +9,24 @@
 **Description:** This method will approximate the root of a single-variable function (i.e. the place where y is equal to zero) using the fixed point iteration method. 
 
 **Input:** The fixedPointRoot method in the FixedPointIteration class takes four arguments:
-1. **FunctionObject f:** This parameter must be an object of class FunctionObject. This class contains a .functionValue(double x) method which returns the value of the function at x.
-2. **double x0:** This is an initial "guess" at the function's root. 
+1. **FunctionObject f:** An object of class FunctionObject. This class contains a .functionValue(double x) method which returns the value of the function at x.
+2. **double x0:** An initial "guess" at the function's root. 
 3. **double tolerance:** The while loop will terminate and output the approximate x-value if the error is less than the tolerance.
-4. **double maxIterations:** The maximum number of iterations
+4. **double maxIterations:** The maximum number of iterations.
 
-**Output:** The method returns a value of type double, which is the .
+**Output:** The method returns a value of type double, which is the x-value of the approximated root.
 
-**Usage:** After importing the RelError class into your program you need to instantiate it and call the calcRelError() method. For example,
+**Usage:** After importing the FixedPointIteration class into your program you need to instantiate it and call the .fixedPointRoot() method. Note that a FunctionObject is instantiated, then passed into the testObject.fixedPointRoot() method as the function. Be sure to define this class with a .functionValue() method.
 
 ```java
-public class test {
+public class main {
     public static void main(String[] args) {
-        RelError obj = new RelError();
-        System.out.println(obj.calcRelError(9, 8.7))
+
+        FunctionObject function = new FunctionObject();
+
+        FixedPointIteration testObject = new FixedPointIteration();
+        double result = testObject.fixedPointRoot(function, 0.5, 0.001, 30);
+        System.out.println(result);
     }
 }
 ```
