@@ -11,11 +11,11 @@ Two Java classes were built. One calculates the absolute error of an approximati
 2. **Absolute Error:** Computes the absolute error of an approximation. Details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/AbsoluteError.md).
 
 ### Question 2:
-A python routine was written to generate a graph using user-provided data. The user can input data for up to 5 functions (the restriction is somewhat arbitrary, but is important due to a finite-length color vector). Data is entered one point at a time and a plot is generated using the data. 
+A python routine was written to generate a graph using user-provided data. The user can input data for up to 5 functions (the restriction is somewhat arbitrary, but is important due to a finite-length color vector). Data is entered one point at a time and a plot is generated using the data. Implementation details are made avaliable [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/GraphicsRoutine.md)
 
 ### Question 3: 
 
-A Java program was written to approximate a function's root using the fixed-point-iteration method. The method .fixedPointRoot() is contained in class FixedPointIteration. This function is not reliable for every function; the error increases for some. Only when |g'(x)| < 1 will the fixed-point iteration method converge to a root which can be proven via Taylor Series expansion.
+A Java program was written to approximate a function's root using the fixed-point-iteration method. The method .fixedPointRoot() is contained in class FixedPointIteration. This method is not reliable for every mathematical expression; the error increases for some causes an overflow error. Only when |g'(x)| < 1 will the fixed-point iteration method converge to a root. This can be proven via Taylor Series expansion.
 
 Click [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/FixedPointIteration.md) for details.
 
