@@ -64,7 +64,7 @@ The function has a root value at x = 0 as well as x = |.805|; however, functiona
 
 ### Question 5:
 
-A Java program was written to implement the bisection method for root finding. When applied to the function analyzed in part 4, the following was output to the console:
+A Java program was written to implement the bisection method for root finding. When applied to the function analyzed in part 4 on the interval [-4,5] with a tolerance of 0.01, the following was output to the console:
 
 ```java
 Error 1: 4.500000
