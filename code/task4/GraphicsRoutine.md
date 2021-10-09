@@ -33,6 +33,8 @@ Enter an ordered pair separated by a space (Ex:1 2):0 0
 ```
 Which outputs the following plot:
 
+![](imagex/task4/Figure_1.png)
+
 **Implementation:**
 
 ```python
