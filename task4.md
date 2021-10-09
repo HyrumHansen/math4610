@@ -62,6 +62,28 @@ Root: 0.805223
 
 The function has a root value at x = 0 as well as x = |.805|; however, functional iteration would not converge towards x = 0. It is unclear why.
 
+### Question 5:
+
+A Java program was written to implement the bisection method for root finding. When applied to the function analyzed in part 4, the following was output to the console:
+
+```java
+Error 1: 4.500000
+Error 2: 2.250000
+Error 3: 1.125000
+Error 4: 0.562500
+Error 5: 0.281250
+Error 6: 0.140625
+Error 7: 0.070313
+Error 8: 0.035156
+Error 9: 0.017578
+Error 10: 0.008789
+
+Root: 0.807617
+```
+
+Details for implementation may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/BisectionMethod.md)
+
+
 
 
 
