@@ -10,6 +10,9 @@ Two Java classes were built. One calculates the absolute error of an approximati
 1. **Relative Error:** Computes the relative error of an approximation. Details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/RelativeError.md).
 2. **Absolute Error:** Computes the absolute error of an approximation. Details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/AbsoluteError.md).
 
+### Question 2:
+A python routine was written to generate a graph using user-provided data. The user can input data for up to 5 functions (the restriction is somewhat arbitrary, but is important due to a finite-length color vector). Data is entered one point at a time and a plot is generated using the data. 
+
 ### Question 3: 
 
 A Java program was written to approximate a function's root using the fixed-point-iteration method. The method .fixedPointRoot() is contained in class FixedPointIteration. This function is not reliable for every function; the error increases for some. Only when |g'(x)| < 1 will the fixed-point iteration method converge to a root which can be proven via Taylor Series expansion.
@@ -18,7 +21,7 @@ Click [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/FixedP
 
 ### Question 4:
 
-Fixed point iteration was applied to the function f(x) = xe^{3x^2} - 7x. The algorithm did not return a solution. Because |g'(x)| > 1 at x = 0, we have to include  an appropriate value of *e* such that xNew = x0 - *e* * f(x). A value which puts us well within the range appropriate for functional iteration is *e* = 0.05. Using this value the approximation was computed as follows:
+Fixed point iteration was applied to the function f(x) = xe^{3x^2} - 7x. The algorithm did not return a solution. Because |g'(x)| > 1 at x = 0, we have to include  an appropriate value of *e* such that xNew = x0 - *e* * f(x). A value which puts us well within the range of our convergence criterion was *e* = 0.05. Using this value the approximation was computed as follows:
 
 ```java
 public class main {
@@ -52,5 +55,11 @@ Error 1: 0.029848
 
 Root: 0.805223
 ```
+
+The function has a root value at x = 0 as well as x = |.805|; however, functional iteration would not converge towards x = 0. It is unclear why.
+
+
+
+
 
 
