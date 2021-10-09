@@ -81,7 +81,7 @@ Error 10: 0.008789
 Root: 0.807617
 ```
 
-Details for implementation may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/BisectionMethod.md)
+Details for implementation may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/BisectionMethod.md).
 
 
 
