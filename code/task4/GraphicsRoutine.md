@@ -33,7 +33,7 @@ Enter an ordered pair separated by a space (Ex:1 2):0 0
 ```
 Which outputs the following plot:
 
-![pic](images/task4/Figure_1.png)
+![](https://github.com/HyrumHansen/math4610/blob/ff8bab117425d463186d517dea7f934ca7bad95c/images/task4/Figure_1.png)
 
 **Implementation:**
 
