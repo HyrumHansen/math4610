@@ -83,8 +83,11 @@ Root: 0.807617
 
 Details for implementation may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task4/BisectionMethod.md).
 
+### Question 6:
 
+Many problems require root solving. There are physical problems, such as determining the turning points of a celestial object's physical motion. Area minimization and maximization problems can also be framed as root-finding problems. Quantum mechanics also deals in root-finding.
 
+Source: https://www.reed.edu/physics/courses/P200.L.S11/Physics200Lab/files/Bisection.pdf
 
 
 
