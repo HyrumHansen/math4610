@@ -14,7 +14,7 @@
 
 **Usage:** The program will prompt the user to input the data. Here is an example:
 
-```python
+```
 How many functions would you like to graph? (maximum of 5) 3
 
 Enter values for function 1:
@@ -31,11 +31,11 @@ Enter values for function 3:
 Enter an ordered pair separated by a space (Ex:1 2):0 0
 ...
 ```
-Which provides the following plot:
+Which outputs the following plot:
 
 **Implementation:**
 
-```java
+```python
 import matplotlib.pyplot as plt
 
 listNumber = int(input("How many functions would you like to graph? (maximum of 5)"))
