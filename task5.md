@@ -7,7 +7,7 @@
 
 Newton's method was implemented to approximate the root of the function given in tasksheet 4. Newton's method 
 approximated roots much faster than did functional iteration or the bisection method. With a tolerance of 0.0001,
-Newton's method found a root in just five steps. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task5/NewtonsMethod.md). See below for example output.
+Newton's method found a root in just five steps. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task5/NewtonsMethod.md). See below for example usage and output.
 
 ```java
 public class main {
@@ -37,7 +37,7 @@ Root: -0.805380
 ### Question 2:
 
 The secant method was implemented to approximate the root of the function given in tasksheet four. The secant method was not quite as fast as Newton's
-method but was still much faster than functional iteration. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task5/SecantMethod.md). See below for example usage:
+method but was still much faster than functional iteration. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task5/SecantMethod.md). See below for example usage and output.
 
 ```java
 public class main {
