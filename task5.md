@@ -67,3 +67,7 @@ produces
  oot: -0.000000
 ```
 
+### Question 3:
+
+![](images/task5/newtons_convergence.png)
+
