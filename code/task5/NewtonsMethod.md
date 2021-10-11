@@ -31,7 +31,7 @@ public class main {
 }
 ```
 
-The output for the code above (which approximates the root of xe^{3x^2} - 7x) is shown below. The while loop does not continue until reaching the maximum iteration; rather, it terminates once the error is less than the tolerance (0.01).
+The output for the code above (which approximates the root of xe^{3x^2} - 7x) is shown below. The while loop does not continue until reaching the maximum iteration; rather, it terminates once the error is less than the tolerance (0.0001).
 
 ```java
  Error 1: 0.097947
