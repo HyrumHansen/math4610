@@ -71,3 +71,42 @@ produces
 
 ![](images/task5/newtons_convergence.png)
 
+### Question 4:
+
+A computational convergence study was conducted using the function given in tasksheet 4. The mean decrease in error was most stable in the midrange of the data, so linear regression was performed on the middle six error values. The code below was used to generate the solutions for this question.
+
+```python
+import numpy as np
+from matplotlib import pyplot as plt
+from scipy.stats import linregress
+
+
+errorValues = [0.097970, 0.141670, 0.079329, 0.049263, 0.016956, 0.003442, 0.000245, 0.000004]
+
+plotValues = []
+xVals = []
+yVals = []
+
+for i in range(len(errorValues) - 1):
+    i += 1
+    plotValues.append([errorValues[i-1], errorValues[i]])
+
+for i in range(len(plotValues) - 1):
+    xVals.append(np.log(plotValues[i][0]))
+
+for i in range(len(plotValues) - 1):
+    yVals.append(np.log(plotValues[i][1]))
+
+print(yVals)
+
+plt.plot(xVals[1:6], yVals[1:6])
+plt.title("Computational Convergence Study for Secant Method")
+plt.xlabel("Logged error at i-1")
+plt.ylabel("Logged error at i")
+plt.savefig('plot1.png')
+plt.show()
+
+
+print(linregress(xVals[1:6], yVals[1:6]))
+```
+
