@@ -8,11 +8,11 @@
 
 **Description:** This method will approximate the root of a single-variable function (i.e. the place where y is equal to zero) using Newton's method. 
 
-**Input:** The fixedPointRoot method in the FixedPointIteration class takes five arguments:
-1. **FunctionObject f:** An object of class FunctionObject. This class contains a .functionValue(double x) method which returns the value of the function at x.
+**Input:** The newtonRoot method in the NewtonsMethod class takes four arguments:
+1. **FunctionObject f:** An object of class FunctionObject. This class contains a .functionValue(double x) method which returns the value of the function at x and a .derivativeValue(double x) method which returns the value of the function's derivative at x.
 2. **double x0:** An initial guess at the root's location
-4. **double tolerance:** The while loop will terminate and output the approximate x-value if the error is less than the tolerance.
-5. **double maxIterations:** The maximum number of iterations.
+3. **double tolerance:** The while loop will terminate and output the approximate x-value if the error is less than the tolerance.
+4. **double maxIterations:** The maximum number of iterations.
 
 **Output:** The method returns a value of type double, which is the x-value of the approximated root.
 
