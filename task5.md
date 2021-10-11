@@ -110,3 +110,6 @@ plt.show()
 print(linregress(xVals[1:6], yVals[1:6]))
 ```
 
+The resultant slope value from the linregress method was approximately 1.593, which is not far from our expected value of 1.62. The plot below shows the iterative reduction in error.
+
+[](images/task5/Figure_1.png)
