@@ -126,4 +126,4 @@ A hybrid method was built using Newton's method in conjunction with 4 steps of t
 
 ### Question 6:
 
-
+Research suggested that while Newton's method converges quickly, there are limitations due to the possibility of non-differentiable functions. Bisection method does not suffer from this limitation but it converges much more slowly. Most often, Newtons method will be perefereable but once again, you must consider differentiability with this method.
