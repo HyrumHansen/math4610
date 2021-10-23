@@ -115,3 +115,15 @@ The resultant slope value from the linregress method was approximately 1.593, wh
 ![](images/task5/Figure_1.png)
 
 Thus, we conclude that the secant method is neither quadratically nor linearlly convergent. Therefore, it is superlinearlly convergent.
+
+### Question 5:
+
+A hybrid method was built using Newton's method in conjunction with 4 steps of the bisection method to approximate roots. The output was predictable and is shown below. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task5/HybridMethod.md).
+
+```
+0.8053980642331949
+```
+
+### Question 6:
+
+
