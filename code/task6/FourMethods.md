@@ -9,10 +9,10 @@
 **Description:** This script implements four root approximation methods for a user-defined function. 
 
 **Input:** This program requires familiarity with the four following packages. Read the documentation for appropriate implementation.
-1. [Bisection Method]()
-2. 
-3. 
-4. 
+1. [Bisection Method](https://github.com/HyrumHansen/math4610/blob/main/code/task4/BisectionMethod.md)
+2. [Fixed Point Iteration](https://github.com/HyrumHansen/math4610/blob/main/code/task4/FixedPointIteration.md)
+3. [Secant Method](https://github.com/HyrumHansen/math4610/blob/main/code/task5/SecantMethod.md)
+4. [Newton's Method](https://github.com/HyrumHansen/math4610/blob/main/code/task5/NewtonsMethod.md)
 
 **Output:** The method prints the results from the test
 
