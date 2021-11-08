@@ -24,3 +24,5 @@ A Java program was written which implemented four methods to approximate the roo
 	It took 4 iterations to approximate this root with newton's method.
 	Approximate Root: 0.483611
 ```
+
+All methods performed as expected. The bisection method was slow but reliable, the secant method and Newton's method quickly found the location of the root, and fixed point iteration was so slow that it reached the maximum number of iterations before reducing error below the given tolerance (0.0001).
