@@ -68,7 +68,7 @@ Output:
  Error 3: NaN
 ```
 
-There are a few possible reasons why Newton's method fails to converge for this function. First, f'(x) evaluates quite near to zero. Due to the finite precision of real number representation, the computer cannot accurately store the value and the results become garbage. In addition, the values x = 6 and x=-5 are very far from the roots in question. Newton's method requires initial guesses that are sufficiently close to a root in order to converge. 
+There are a few possible reasons why Newton's method fails to converge for this function. First, f'(x) evaluates quite near to zero. Due to the finite precision of real number representation, the computer cannot accurately store the value and the results become garbage. In addition, the values x = 6 and x=-5 are very far from the roots in question. Newton's method requires initial guesses that are sufficiently close to a root in order to converge, so it is not altogether surprising that Newton's method did not converge here.
 
 
 
