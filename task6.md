@@ -26,3 +26,48 @@ A Java program was written which implemented four methods to approximate the roo
 ```
 
 All methods performed as expected. The bisection method was slow but reliable, the secant method and Newton's method quickly found the location of the root, and fixed point iteration was so slow that it reached the maximum number of iterations before reducing error below the given tolerance (0.0001).
+
+
+### Question 2:
+
+Newton's method failed to converge for the points x0 = -5 and x0 = 6. Code chunks are given for the input and output of this question.
+
+Input: x0 = -5:
+```java
+	NewtonsMethod testObject4 = new NewtonsMethod();
+
+        double result4 = testObject4.newtonsRoot(function, 6,  0.0001, 30);
+        System.out.println("\n\n** Newton's Method **");
+        System.out.printf("\tIt took %d iterations to approximate this root with newton's method.\n",
+                testObject4.getNumIterations());
+        System.out.printf("\tApproximate Root: %f", result4);
+```
+
+Output:
+```java
+ Error 1: 14916475432423.209000
+ Error 2: Infinity
+ Error 3: NaN
+```
+
+Input: x0 = 6
+```java
+	NewtonsMethod testObject4 = new NewtonsMethod();
+
+        double result4 = testObject4.newtonsRoot(function, -5,  0.0001, 30);
+        System.out.println("\n\n** Newton's Method **");
+        System.out.printf("\tIt took %d iterations to approximate this root with newton's method.\n",
+                testObject4.getNumIterations());
+        System.out.printf("\tApproximate Root: %f", result4);
+```
+
+Output:
+```java
+ Error 1: 316985795.086903
+ Error 2: Infinity
+ Error 3: NaN
+```
+
+
+
+
