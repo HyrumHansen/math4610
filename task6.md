@@ -32,7 +32,7 @@ All methods performed as expected. The bisection method was slow but reliable, t
 
 Newton's method failed to converge for the points x0 = -5 and x0 = 6. Code chunks are given for the input and output of this question.
 
-Input: x0 = -5:
+Input: x0 = 6:
 ```java
 	NewtonsMethod testObject4 = new NewtonsMethod();
 
@@ -50,7 +50,7 @@ Output:
  Error 3: NaN
 ```
 
-Input: x0 = 6
+Input: x0 = -5
 ```java
 	NewtonsMethod testObject4 = new NewtonsMethod();
 
@@ -67,6 +67,8 @@ Output:
  Error 2: Infinity
  Error 3: NaN
 ```
+
+There are a few possible reasons why Newton's method fails to converge for this function. First, f'(x) evaluates quite near to zero. Due to the finite precision of real number representation, the computer cannot accurately store the value and the results become garbage. In addition, the values x = 6 and x=-5 are very far from the roots in question. Newton's method requires initial guesses that are sufficiently close to a root in order to converge. 
 
 
 
