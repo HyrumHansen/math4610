@@ -20,7 +20,7 @@ A Java program was written which implemented four methods to approximate the roo
 	It took 5 iterations to approximate this root with the secant method.
 	Approximate Root: 0.483611
 
-** Newton's Method **
+** Newtons Method **
 	It took 4 iterations to approximate this root with newton's method.
 	Approximate Root: 0.483611
 ```
@@ -78,6 +78,80 @@ A hybrid bisection-newton method was written in python to compute the root of th
 ** Hybrid Method (Bisection-Newton)**
 0.48361069860654926
 ```
+
+### Question 4:
+
+An attempt was made to write a hybrid secant-bisection method the method could only find roots if the given interval was close enough to a root. Otherwise it would converge to either extrama on the interval. The code is given below:
+
+```python
+import numpy as np
+
+
+def function(x):
+    return np.exp(-np.power(x, 2)) * np.sin((4 * np.power(x, 2)) - 1) + 0.051
+
+
+def derivative(x):
+    return -2 * x * np.exp(-np.power(x, 2)) * (np.sin((4 * np.power(x, 2)) - 1) - 4 * np.cos((4 * np.power(x, 2)) - 1))
+
+
+def hybridMethod(x0, x1, tolerance, maxIteration):
+    count = 1
+    error1 = 10 * tolerance
+    error2 = 10 * tolerance
+    xMid = x1
+    xLow = x0
+
+    while error1 > tolerance and count < maxIteration:
+
+        # Create a couple variables to keep the inputs pure
+        count += 1
+
+        # Compute an iteration of secant method
+        xNew = xMid - function(xMid) * ((xMid - xLow) / (function(xMid) - function(xLow)))
+        error1 = np.abs(xNew - xLow)
+
+        if error1 < np.abs(x1 - x0):
+            xLow = xMid
+            xMid = xNew
+
+        print("Post-Secant Error is:" + str(error1))
+
+        if error2 < error1:
+            print("Begin Bisection...")
+
+            for i in range(3):
+                midpoint = 0.5 * (xMid + xLow)
+                value = function(xLow) * function(midpoint)
+
+                if value < 0:
+                    xLow = midpoint
+                else:
+                    xMid = midpoint
+                if value == 0:
+                    return function(midpoint)
+
+            error2 = np.abs(xMid - xLow)
+
+            print("Post-Bisection Error:" + str(error2))
+
+
+    return xMid
+
+
+print("** Hybrid Method (Bisection-Newton)**")
+print(hybridMethod(-5, 6, 0.00001, 30))
+
+```
+
+### Question 6:
+
+It seems like the majority of methods for finding multiple roots require the use of complex numbers. The Durand-Kerner method is used to find the roots of polynomials. As far as simpler methods are concerned, an adaptation for Newton's method can be done but it requries the user provide a set of intervals that each contain a root.
+
+### Source:
+
+[https://en.wikipedia.org/wiki/Secant_method](https://en.wikipedia.org/wiki/Secant_method)
+
 
 
 
