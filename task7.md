@@ -31,6 +31,28 @@ Enter the number of columns: 5
 [0.2031746  0.05079365 0.02539683 0.01587302 0.11111111]
 ```
 
+### Question 2:
+
+A python program was written generate the transpose of a matrix. The function first calles the upper triangular matrix generation function then tranposes it. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task7/lowerTriangularMatrixGenerator.md). For example output see below:
+
+```python
+Enter the number of rows: 5
+Enter the number of columns: 5
+[1, 0, 0, 0, 0]
+[2, 3, 0, 0, 0]
+[3, 4, 5, 0, 0]
+[4, 5, 6, 7, 0]
+[5, 6, 7, 8, 9]
+```
+A lower triangular matrix solver was written in Python. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task7/lowerTriangularSolver.md). For the three by three case, example output is given below:
+
+```python
+Enter the number of rows: 3
+Enter the number of columns: 3
+[1.0, -0.3333333333333333, -0.13333333333333336]
+```
+
+
 
 
 
