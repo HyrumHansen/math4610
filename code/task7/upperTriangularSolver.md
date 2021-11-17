@@ -50,7 +50,7 @@ import numpy as np
 myMatrix = matrixGenerator.upperTri()
 myB = np.zeros(len(myMatrix) - 1)
 
-solution = linearSolver(myMatrix, myB)
+solution = linearSolver.upperTriSolver(myMatrix, myB)
 print(solution)
 ```
 
