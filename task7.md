@@ -54,10 +54,13 @@ Enter the number of columns: 3
 
 ### Question 3:
 
-Three functions were written to accomplish this task:
+Four functions were written to accomplish this task:
 1. [Square Matrix Generator with Random Entries](https://github.com/HyrumHansen/math4610/blob/main/code/task7/squareRandomMatrix.md): This function takes user input for the matrix dimension and outputs a matrix with random values.
 2. [Upper Triangular Matrix Generator with Random Entries](https://github.com/HyrumHansen/math4610/blob/main/code/task7/randomUpperTriangularMatrixGenerator.md): This function takes user input for the matrix dimension and outputs a square, upper triangular matrix with random values
 3. [Lower Triangular Matrix Generator with Random Entries](https://github.com/HyrumHansen/math4610/blob/main/code/task7/RandoomLowerTriangularMatrixGenerator.md): This function takes user input for the matrix dimension and outputs a square, lower triangular matrix with random values
+4. [Diagonal Matrix with Random Entries](https://github.com/HyrumHansen/math4610/blob/main/code/task7/randomDiagonalMatrix.md): This function takes user input for the matrix dimension and outputs a square, diagonal matrix with random integers between 1 and 9 on the diagonal.
+
+
 
 
 
