@@ -1,4 +1,4 @@
-# Random Lower Triangular Square Matrix Generator
+# Random Square Diagonal Matrix Generator
 
 **Routine Name:** randomDiagonalMatrix()
 
