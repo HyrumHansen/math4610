@@ -99,5 +99,6 @@ REDUCED MATRIX
 
 ### Question 6:
 
+The most important critera that makes a system solvable is to have the same number of **independent** equations as you have unknowns. In other words, if there are 5 unknowns your matrix must be a 5 by 5 square matrix with linearly independent columns. A system with fewer equations than unknowns has infinately many solutions or no solution; we call this type an underdetermined system.
 
 
