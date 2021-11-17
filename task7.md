@@ -61,7 +61,19 @@ Four functions were written to accomplish this task:
 4. [Diagonal Matrix with Random Entries](https://github.com/HyrumHansen/math4610/blob/main/code/task7/randomDiagonalMatrix.md): This function takes user input for the matrix dimension and outputs a square, diagonal matrix with random integers between 1 and 9 on the diagonal.
 
 
+### Question 4: 
 
+A function was written to solve a system involving a diagonal matrix. Implmentation details my be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task7/diagonalMatrixSolver.md). For a 5 by 5 case example output is given below:
+
+```python
+Enter the dimension of the square matrix: 5
+[1, 0, 0, 0, 0]
+[0, 1, 0, 0, 0]
+[0, 0, 3, 0, 0]
+[0, 0, 0, 3, 0]
+[0, 0, 0, 0, 9]
+[1.0, 1.0, 0.3333333333333333, 0.3333333333333333, 0.1111111111111111]
+```
 
 
 
