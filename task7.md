@@ -75,7 +75,29 @@ Enter the dimension of the square matrix: 5
 [1.0, 1.0, 0.3333333333333333, 0.3333333333333333, 0.1111111111111111]
 ```
 
+### Question 5:
 
+A python function was written to reduce a random square matrix into row-echelon form. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task7/rowEchelon.md). Example output is given below:
+
+```python
+Enter the dimension of the square matrix: 5
+
+ORIGINAL MATRIX
+[3, 3, 7, 5, 1]
+[1, 4, 3, 2, 4]
+[8, 8, 8, 9, 2]
+[4, 3, 4, 7, 3]
+[9, 2, 4, 1, 7]
+
+REDUCED MATRIX
+[3, 3, 7, 5, 1]
+[0.0, 3.0, 0.666666666666667, 0.3333333333333335, 3.6666666666666665]
+[0.0, 0.0, -10.666666666666664, -4.333333333333332, -0.6666666666666665]
+[0.0, 0.0, 0.0, 2.520833333333333, 3.208333333333333]
+[0.0, 0.0, -1.7763568394002505e-15, -8.881784197001252e-16, 22.363636363636363]
+```
+
+### Question 6:
 
 
 
