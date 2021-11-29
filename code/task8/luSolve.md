@@ -13,7 +13,7 @@
 2. U: the upper triangular portion of an LU-decomposition
 3. b: a right-hand side vector
 
-**Output:** The function outputs a solution vector x to the system LU = b. 
+**Output:** The function outputs a solution vector x to the system LUx = b. 
 
 **Usage:** Call the function with the required inputs.
 
