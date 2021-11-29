@@ -61,7 +61,7 @@ Upper Triangular Matrix:
 [ 0.     0.    21.083]
 ```
 
-The resultant L and U matrices were passed into a new function which solves a system using the LU decomposition. This function takes as input a lower and upper triangular matrix, then solves Ly = b and Ux = y to yield the solution vector x. Implementation details are given [here](). Example output is shown below. 
+The resultant L and U matrices were passed into a new function, **lu.solve()** which solves a system using the LU decomposition. This function takes as input a lower and upper triangular matrix, then solves Ly = b and Ux = y to yield the solution vector x. Implementation details are given [here](). Example output is shown below. 
 
 ```python
 The Original Matrix: 
