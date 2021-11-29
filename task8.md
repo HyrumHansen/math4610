@@ -77,32 +77,13 @@ The solution vector:
 
 ### Question 3:
 
-A function was written to generate hilbert matrices of dimension n = 4, 5, ..., 10. Implementation details are given [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/generateHilbertMatrix.md). When attempting to solve the system using LU-factorization, divide by zero errors occur. For n = 2 and n = 3 the solutions are consistent up to rounding (matrix entries are rounded for presentation purposes though in an application setting the rounding code would be commented out); however, once the dimension is greater than 3 the solution vector cannot be computed by the LU-system solution code. Below is an example of the code functioning properly for a hilber matrix of dimension n = 3:
+A function was written to generate hilbert matrices of dimension n = 4, 5, ..., 10. Implementation details are given [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/generateHilbertMatrix.md). When attempting to solve the system using LU-factorization with rounded entries, divide by zero errors occur. Rounding code was ommitted and the process worked adequatly; that is, results were consistent up to some rounding errors. Given below are the results for the computations:
 
-```python
-Enter the dimension of the Hilbert matrix: 3
-
-The Hilbert Matrix: 
-[1.0, 0.5, 0.3333333333333333]
-[0.5, 0.3333333333333333, 0.25]
-[0.3333333333333333, 0.25, 0.2]
-
-The Right-Hand Side vector (each entry is the sum of the corresponding row)
-1.8333333333333333
-1.0833333333333333
-0.7833333333333332
-
-The solution vector (should be all ones):
-1.001
-0.98
-1.028
-```
-
-Now here's what happens for n > 4:
-
+n = 4
 ```python
 Enter the dimension of the Hilbert matrix: 4
-The Hilbert Matrix: 
+
+The Hilbert Matrix:
 [1.0, 0.5, 0.3333333333333333, 0.25]
 [0.5, 0.3333333333333333, 0.25, 0.2]
 [0.3333333333333333, 0.25, 0.2, 0.16666666666666666]
@@ -114,18 +95,66 @@ The Right-Hand Side vector (each entry is the sum of the corresponding row):
 0.9499999999999998
 0.7595238095238095
 
-...
-RuntimeWarning: divide by zero encountered in double_scalars
-  x[i] = val / U[i][i]
-...
-
 The solution vector (should be all ones):
-nan
-nan
-inf
--inf
+0.9999999999999758
+1.0000000000002716
+0.999999999999344
+1.0000000000004274
 ```
 
-This output solution is clearly not correct, and is only given after a runtime error. Thus, we assume that another method is needed to compute the solution to this system.
+n = 5
+```python
+Enter the dimension of the Hilbert matrix: 5
 
+The Hilbert Matrix: 
+[1.0, 0.5, 0.3333333333333333, 0.25, 0.2]
+[0.5, 0.3333333333333333, 0.25, 0.2, 0.16666666666666666]
+[0.3333333333333333, 0.25, 0.2, 0.16666666666666666, 0.14285714285714285]
+[0.25, 0.2, 0.16666666666666666, 0.14285714285714285, 0.125]
+[0.2, 0.16666666666666666, 0.14285714285714285, 0.125, 0.1111111111111111]
 
+The Right-Hand Side vector (each entry is the sum of the corresponding row):
+2.283333333333333
+1.45
+1.0928571428571427
+0.8845238095238095
+0.7456349206349207
+
+The solution vector (should be all ones):
+0.9999999999999756
+1.0000000000003417
+0.9999999999988194
+1.0000000000014766
+0.999999999999388
+```
+.
+.
+.
+
+```python
+Enter the dimension of the Hilbert matrix: 6
+
+The Hilbert Matrix: 
+[1.0, 0.5, 0.3333333333333333, 0.25, 0.2, 0.16666666666666666]
+[0.5, 0.3333333333333333, 0.25, 0.2, 0.16666666666666666, 0.14285714285714285]
+[0.3333333333333333, 0.25, 0.2, 0.16666666666666666, 0.14285714285714285, 0.125]
+[0.25, 0.2, 0.16666666666666666, 0.14285714285714285, 0.125, 0.1111111111111111]
+[0.2, 0.16666666666666666, 0.14285714285714285, 0.125, 0.1111111111111111, 0.1]
+[0.16666666666666666, 0.14285714285714285, 0.125, 0.1111111111111111, 0.1, 0.09090909090909091]
+
+The Right-Hand Side vector (each entry is the sum of the corresponding row):
+2.4499999999999997
+1.5928571428571427
+1.2178571428571427
+0.9956349206349207
+0.8456349206349206
+0.7365440115440116
+
+The solution vector (should be all ones):
+0.9999999999990768
+1.0000000000262703
+0.999999999822432
+1.00000000046174
+0.999999999490333
+1.0000000002008527
+```
