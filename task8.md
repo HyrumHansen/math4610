@@ -61,7 +61,7 @@ Upper Triangular Matrix:
 [ 0.     0.    21.083]
 ```
 
-The resultant L and U matrices were passed into a new function, **lu.solve()** which solves a system using the LU decomposition. This function takes as input a lower and upper triangular matrix, then solves Ly = b and Ux = y to yield the solution vector x. Implementation details are given [here](). Example output is shown below. 
+The resultant L and U matrices were passed into a new function, **lu.solve()**, which solves a system using the LU decomposition. This function takes as input a lower triangular matrix, an upper triangular matrix, and a right-hand side vector b, then solves Ly = b and Ux = y to yield the solution vector x. Implementation details are given [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/luSolve.md). Example output is shown below. 
 
 ```python
 The Original Matrix: 
@@ -74,3 +74,56 @@ The solution vector:
 0.235
 0.104
 ```
+
+### Question 3:
+
+A function was written to generate hilbert matrices of dimension n = 4, 5, ..., 10. Implementation details are given [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/generateHilbertMatrix.md). When attempting to solve the system using LU-factorization, divide by zero errors occur. For n = 2 and n = 3 the solutions are consistent up to rounding; however, once the dimension is greater than 3 the solution vector cannot be computed by the LU-system solution code. Below is an example of the code functioning properly for a hilber matrix of dimension n = 3:
+
+```python
+Enter the dimension of the Hilbert matrix: 3
+
+The Hilbert Matrix: 
+[1.0, 0.5, 0.3333333333333333]
+[0.5, 0.3333333333333333, 0.25]
+[0.3333333333333333, 0.25, 0.2]
+
+The Right-Hand Side vector (each entry is the sum of the corresponding row)
+1.8333333333333333
+1.0833333333333333
+0.7833333333333332
+
+The solution vector (should be all ones):
+1.001
+0.98
+1.028
+```
+
+Now here's what happens for n > 4:
+
+```python
+Enter the dimension of the Hilbert matrix: 4
+The Hilbert Matrix: 
+[1.0, 0.5, 0.3333333333333333, 0.25]
+[0.5, 0.3333333333333333, 0.25, 0.2]
+[0.3333333333333333, 0.25, 0.2, 0.16666666666666666]
+[0.25, 0.2, 0.16666666666666666, 0.14285714285714285]
+
+The Right-Hand Side vector (each entry is the sum of the corresponding row):
+2.083333333333333
+1.2833333333333332
+0.9499999999999998
+0.7595238095238095
+
+...
+RuntimeWarning: divide by zero encountered in double_scalars
+  x[i] = val / U[i][i]
+...
+
+The solution vector (should be all ones):
+nan
+nan
+inf
+-inf
+```
+
+This output solution is clearly not correct, and is only given after a runtime error
