@@ -77,7 +77,7 @@ The solution vector:
 
 ### Question 3:
 
-A function was written to generate hilbert matrices of dimension n = 4, 5, ..., 10. Implementation details are given [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/generateHilbertMatrix.md). When attempting to solve the system using LU-factorization, divide by zero errors occur. For n = 2 and n = 3 the solutions are consistent up to rounding; however, once the dimension is greater than 3 the solution vector cannot be computed by the LU-system solution code. Below is an example of the code functioning properly for a hilber matrix of dimension n = 3:
+A function was written to generate hilbert matrices of dimension n = 4, 5, ..., 10. Implementation details are given [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/generateHilbertMatrix.md). When attempting to solve the system using LU-factorization, divide by zero errors occur. For n = 2 and n = 3 the solutions are consistent up to rounding (matrix entries are rounded for presentation purposes though in an application setting the rounding code would be commented out); however, once the dimension is greater than 3 the solution vector cannot be computed by the LU-system solution code. Below is an example of the code functioning properly for a hilber matrix of dimension n = 3:
 
 ```python
 Enter the dimension of the Hilbert matrix: 3
@@ -126,4 +126,6 @@ inf
 -inf
 ```
 
-This output solution is clearly not correct, and is only given after a runtime error
+This output solution is clearly not correct, and is only given after a runtime error. Thus, we assume that another method is needed to compute the solution to this system.
+
+
