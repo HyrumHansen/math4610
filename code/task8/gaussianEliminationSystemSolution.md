@@ -1,6 +1,6 @@
 # System Solution via Gaussian Elimination and Backsubstitution
 
-**Routine Name:** gaussianElimiantionSystemSolution.solve()
+**Routine Name:** gaussianElimiantionSystemSolution.solve(matrix, b)
 
 **Author:** Hyrum Hansen
 
@@ -9,8 +9,8 @@
 **Description:** This uses Gaussian Elimination and backsubstitution to solve a linear system.
 
 **Input:** The solve() function takes two inputs:
-1. A square matrix
-2. A solution vector whose length matches the dimension of the matrix
+1. matrix: a square matrix
+2. b: a solution vector whose length matches the dimension of the matrix
 
 **Usage:** Call the function with the required inputs. The function outputs the solution vector so assign it to a new variable for visualisation.
 
