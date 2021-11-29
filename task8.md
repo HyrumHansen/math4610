@@ -39,3 +39,24 @@ X[0]: 0.04
 X[1]: 0.13
 X[2]: 0.17
 ```
+
+### Question 2:
+
+LU factorization was implemented, the details are available [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/LUdecomposition.md). The function's output was checked against the scipy implementation of LU-factorization and the results were found to be consistent. The following is example output for a randomly-generated diagonally-dominant matrix:
+
+```python
+The Original Matrix: 
+[20, 2, 3]
+[5, 18, 3]
+[2, 5, 22]
+
+Lower Triangular Matrix:
+[1. 0. 0.]
+[0.25 1.   0.  ]
+[0.1   0.274 1.   ]
+
+Upper Triangular Matrix:
+[20.  2.  3.]
+[ 0.   17.5   2.25]
+[ 0.     0.    21.083]
+```
