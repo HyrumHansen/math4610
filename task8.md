@@ -212,3 +212,13 @@ The solution vector (should be all ones):
 
 Take the last entries in the solution vector for example. The correct value is 1, LU-factorization has an error of 0.00008 and scaled partial pivoting has an error of 0.00004. Though the error magnitude is small for both, scaled partial pivoting is significantly better than LU-factorization.
 
+### Question 6:
+
+The Hilbert matrix is necessarily symmetric and positive definite. There exists a closed formula for its determinant which was derived by David Hilbert while attempting to answer an approximation theory question. It is regarded as the most ill-conditioned matrix in numerical linear algebra.
+
+### Sources:
+*https://blogs.sas.com/content/iml/2014/04/09/the-hilbert-matrix.html
+*https://nhigham.com/2020/06/30/what-is-the-hilbert-matrix/
+*https://en.wikipedia.org/wiki/Hilbert_matrix
+
+
