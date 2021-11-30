@@ -133,9 +133,6 @@ The solution vector (should be all ones):
 
 n = 10
 ```python
-Enter the dimension of the Hilbert matrix: 6
-
-The Hilbert Matrix: 
 Enter the dimension of the Hilbert matrix: 10
 The Hilbert Matrix: 
 [1.0, 0.5, 0.3333333333333333, 0.25, 0.2, 0.16666666666666666, 0.14285714285714285, 0.125, 0.1111111111111111, 0.1]
@@ -175,3 +172,12 @@ The solution vector (should be all ones):
 ```
 
 As the dimension of the matrix increases, the rounding errors seem to increase a little bit. 
+
+### Question 4:
+
+Gaussian elimination with scaled partial pivoting was implemented to determine if it was more effective than simply solving LUx = b for Hilbert matrices. Implementation details are given [here](https://github.com/HyrumHansen/math4610/blob/main/code/task8/GaussianScaledPartialPivoting.md). The function is pretty robust. Comparisons between LUx = b with forward and backward substituion and Ax = b with scaled partial pivoting will be made in the subsequent response.
+
+### Question 5:
+
+Using scaled partial pivoting the error in the resultant x vector for Ax = b on Hilbert matrices was about half the magnitude of the error solving LUx = b with no row swaps. 
+
