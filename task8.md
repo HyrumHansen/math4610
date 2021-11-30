@@ -179,5 +179,36 @@ Gaussian elimination with scaled partial pivoting was implemented to determine i
 
 ### Question 5:
 
-Using scaled partial pivoting the error in the resultant x vector for Ax = b on Hilbert matrices was about half the magnitude of the error solving LUx = b with no row swaps. 
+Using scaled partial pivoting the error in the resultant x vector for Ax = b on Hilbert matrices was about half the magnitude of the error solving LUx = b with no row swaps. compare the Hilbert matrix of dimension n = 10 using LU factorization with the following output using scaled partial pivoting in conjunction with Gaussian elimination:
+
+```python
+
+Enter the dimension of the Hilbert matrix: 10
+
+The Right-Hand Side vector (each entry is the sum of the corresponding row): 
+2.9289682539682538
+2.019877344877345
+1.603210678210678
+1.3468004218004217
+1.168228993228993
+1.03489565989566
+0.9307289932289933
+0.8466953797836152
+0.7772509353391707
+0.718771403175428
+
+The solution vector (should be all ones):
+0.9999999989907247
+1.0000000867039023
+0.9999981614025927
+1.0000166550216785
+0.9999207951374189
+1.000217181992551
+0.9996444519400818
+1.0003429361561054
+0.9998202672529901
+1.0000394660715892
+```
+
+Take the last entries in the solution vector for example. The correct value is 1, LU-factorization has an error of 0.00008 and scaled partial pivoting has an error of 0.00004. Though the error magnitude is small for both, scaled partial pivoting is significantly better than LU-factorization.
 
