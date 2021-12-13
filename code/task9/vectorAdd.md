@@ -27,19 +27,17 @@ print(newVec)
 And corresponding example output:
 
 ```python
-[1, 5, -3, -6]
+[9, 1, 11, 16]
 ```
 
 **Implementation:**
 
 ```python
-import vectorOperations as VO
-
-vec1 = [5, 3, 4, 5]
-vec2 = [4, -2, 7, 11]
-
-newVec = VO.vectorAdd(vec1, vec2)
-print(newVec)
+def vectorAdd(vec1, vec2):
+    newVec = []
+    for i in range(len(vec1)):
+        newVec.append(vec1[i] + vec2[i])
+    return newVec
 ```
 
 
