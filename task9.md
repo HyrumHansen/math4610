@@ -99,4 +99,5 @@ The Gauss-Seidel method has a faster rate of convergence than does the Jacobi it
 
 ### Sources:
 [https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method)
+
 [https://johnfoster.pge.utexas.edu/numerical-methods-book/LinearAlgebra_IterativeSolvers.html](https://johnfoster.pge.utexas.edu/numerical-methods-book/LinearAlgebra_IterativeSolvers.html)
