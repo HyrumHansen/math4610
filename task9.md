@@ -95,7 +95,7 @@ The Error for the Gaussian Method is: 0.0
 ```
 
 ### Question 6:
-The Gauss-Seidel method has a faster rate of convergence than does the Jacobi iteration technique. One reason is that when approximating the x vector, once a single component in x has been calculated it is used in the current approximation. In other words, while the Jacobi method only uses information from the kth approximation for the k+1th approximation, Gauss-Seidel computes the k+1th approximation as soon as a single x component form the k+1th approximation is available.
+The Gauss-Seidel method has a faster rate of convergence than does the Jacobi iteration technique. One reason is that when approximating the x vector, once a single component in x has been calculated it is used in the current approximation. In other words, while the Jacobi method only uses information from the kth approximation for the k+1th approximation, Gauss-Seidel computes the k+1th approximation as soon as a single x component from the k+1th approximation is available.
 
 ### Sources:
 [https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method)
