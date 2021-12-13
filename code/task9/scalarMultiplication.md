@@ -1,12 +1,12 @@
 # Scalar Multiplication by a Vector
 
-**Routine Name:** vectorAdd(a, vec)
+**Routine Name:** scalarMult(a, vec)
 
 **Author:** Hyrum Hansen
 
 **Language:** Python
 
-**Description:** This function returns the vector that results from a scalar multiplication
+**Description:** This function returns the vector that results from the multiplication of a vector and a scalar
 
 **Input:** The scalarMult() function takes two inputs, both of which must be vectors of the same length
 1. vec: a vector
