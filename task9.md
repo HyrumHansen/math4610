@@ -58,4 +58,39 @@ Iteration 49:[-0.004145936455510576, 0.5613598682442789, -0.025704808594659845]
 Iteration 50:[-0.004145937336779835, 0.5613598667132284, -0.02570480975390372]
 ```
 
+### Question 5:
+
+Jacobi Iteration was compared to Gaussian Elimination for a 100x100 diagonally dominant matrix with a solution vector of ones. The L2 norm was used to compare the two solutions. Both converged to values very near zero, but Gaussian elimination got so near zero that due to the finite precision of data, the output error was reported to be zero. The code to compute the error is given below:
+
+```python
+import matrixOperations as MO
+import matrixGenerator as MG
+import vectorOperations as VO
+from gaussianElimiantionSystemSolution import solve
+
+matrix = MG.diagonallyDominantMatrix()
+ones = [1 for i in range(100)]
+guess = [0 for i in range(100)]
+solutionVector = MO.matrixVecProd(matrix, ones)
+
+jacobiSolution = MO.jacobi(matrix, solutionVector, guess, 50)
+gaussSolution = solve(matrix, solutionVector)
+
+errorJacobi = VO.l2Error(jacobiSolution, ones)
+errorGauss = VO.l2Error(gaussSolution, ones)
+
+print("ERROR COMPARISION")
+print("-----------------")
+print(f"The Error for the Jacobi Iteration is: {errorJacobi}")
+print(f"The Error for the Gaussian Method is: {errorGauss}")
+```
+
+and the corresponding output:
+
+```python
+ERROR COMPARISION
+-----------------
+The Error for the Jacobi Iteration is: 1.6714675969431367e-11
+The Error for the Gaussian Method is: 0.0
+```
 
