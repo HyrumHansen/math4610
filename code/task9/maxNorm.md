@@ -47,7 +47,7 @@ def normMax(vec):
 
     # Find the max value
     currMax = 0
-    for value in vec:
+    for value in absArray:
         if value > currMax:
             currMax = value
     return currMax
