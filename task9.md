@@ -22,3 +22,12 @@ The following functions were written in Python to compute vector norms and error
 5. [L2 Error](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l2Error.md)
 6. [Max Error](https://github.com/HyrumHansen/math4610/blob/main/code/task9/maxError.md)
 
+### Question 3:
+
+The following functions were written in Python to compute matrix operations. 
+1. [Matrix Addition](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixAdd.md)
+2. [Matrix Subtraction](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixSub.md)
+3. [Scalar/Matrix Multiplication](https://github.com/HyrumHansen/math4610/blob/main/code/task9/scalarMatrixMult.md)
+4. [Matrix Transpose](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixTranspose.md)
+5. [Matrix/Vector Multplication](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matVecMult.md)
+6. [Matrix/Matrix Multiplication](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixMult.md)
