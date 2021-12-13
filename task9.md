@@ -34,7 +34,7 @@ The following functions were written in Python to compute matrix operations.
 
 ### Question 4:
 
-Jacobi iteration was implemented to find the solution to a linear system of equations for square diagonally dominant matrices. To demonstrate the function's behavior, jacobi() prints the current x vector each iteration. Here is an example of the function's usage:
+Jacobi iteration was implemented to find the solution to a linear system of equations for square diagonally dominant matrices. To demonstrate the function's behavior, jacobi() prints the current x vector each iteration. This function was tested against numpy's np.linalg.solve() to confirm the validity of the solution. Here is an example of the function's usage:
 
 ```python
 import matrixOperations as MO
