@@ -48,3 +48,25 @@ Using the technique known as functional iteration, this program estimates the ro
 This program codes the bisection method for approximating the root of a function.
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task4/BisectionMethod.md)
+***
+
+## Task 5:
+
+### Newton's Method
+
+This function approximates the root of a single-variable function using Newton's Method.
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task5/NewtonsMethod.md)
+
+### Secant Method
+
+This function approximates the root of a single-variable function using the Secant Method.
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task5/SecantMethod.md)
+
+### Hybrid Method
+
+This function approximates the root of a single-variable function using the Secant Method.
+
+[https://github.com/HyrumHansen/math4610/blob/main/code/task5/HybridMethod.md](https://github.com/HyrumHansen/math4610/blob/main/code/task5/SecantMethod.md)
+***
