@@ -163,6 +163,12 @@ This program solves a square linear system using Gaussian elimination and scaled
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task8/GaussianScaledPartialPivoting.md)
 
+### Jacobi Iteration
+
+This program solves a square linear system using the Jacobi Iteration.
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/jacobiIter.md)
+
 ***
 
 ## Matrix Factorizations
