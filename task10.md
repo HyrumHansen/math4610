@@ -139,5 +139,9 @@ Numpy Method
 1.6641666266031336
 ```
 
+### Question 6:
 
+The software manual was updated to include all of the base routines for the course. Click the link below to access it.
+
+[Software Manual](https://github.com/HyrumHansen/math4610/blob/main/software_manual.md)
 
