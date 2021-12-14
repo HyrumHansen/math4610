@@ -27,6 +27,24 @@ This program calculates the relative error of an estimate compared to its true v
 This program calculates the absolute error of an estimate compared to its true value
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task4/AbsoluteError.md)
+
+### L1 Error
+
+This program computes the L1 error between two vectors
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l1Error.md)
+
+### L2 Error
+
+This program computes the L2 error between two vectors
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l2Error.md)
+
+### Max Error
+
+This program computes the max error between two vectors
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/maxError.md)
 ***
 
 ## Plotting
@@ -211,25 +229,45 @@ This program computes the L2 Norm of a vector
 This program computes the Max Norm of a vector
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/maxNorm.md)
-
-### L1 Error
-
-This program computes the L1 error between two vectors
-
-[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l1Error.md)
-
-### L2 Error
-
-This program computes the L2 error between two vectors
-
-[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l2Error.md)
-
-### Max Error
-
-This program computes the max error between two vectors
-
-[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/maxError.md)
 ***
+
+## Matrix Operations
+
+### Matrix Addition
+
+This program adds two matrices of the same size
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixAdd.md)
+
+### Matrix Subtraction
+
+This program subtracts two matrices of the same size
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixSub.md)
+
+### Scalar/Matrix Addition
+
+This program multiplies one matrix by a scalar
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/scalarMatrixMult.md)
+
+### Matrix Transpose
+
+This program transposes a matrix
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixTranspose.md)
+
+### Matrix/Vector Multiplication
+
+This computes the multiplication between a matrix and a vector
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matVecMult.md)
+
+### Matrix/Vector Multiplication
+
+This computes the product of two rectangular matrices with compatible dimensions
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixMult.md)
 
 
 
