@@ -60,7 +60,7 @@ Numpy Method
 
 ### Question 3:
 
-Code was written to calculate the 1-norm of a matrix (in other words, the maximum of the column sums). Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task10/1matrixNorm.md). The function was tested on a 100x100 diagonally dominant matrix and compared to numpy's norm function. The two were found to be consistend. Example usage is given below:
+Code was written to calculate the 1-norm of a matrix (in other words, the maximum of the column sums). Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task10/1matrixNorm.md). The function was tested on a 100x100 diagonally dominant matrix and compared to numpy's norm function. The two were found to be consistent. Example usage is given below:
 
 ```python
 matrix = MG.diagonallyDominantMatrix()
@@ -87,7 +87,7 @@ Numpy Method
 
 ### Question 4:
 
-Code was written to calculate the infinit-norm of a matrix (in other words, the maximum of the row sums). Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task10/1matrixNorm.md). The function was tested on a 100x100 diagonally dominant matrix and compared to numpy's norm function. The two were found to be consistend. Example usage is given below:
+Code was written to calculate the infinite-norm of a matrix (in other words, the maximum of the row sums). Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task10/infinityNorm.md). The function was tested on a 100x100 diagonally dominant matrix and compared to numpy's norm function. The two were found to be consistent. Example usage is given below:
 
 ```python
 matrix = MG.diagonallyDominantMatrix()
