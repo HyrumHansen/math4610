@@ -98,6 +98,13 @@ This program generates a random square matrix
 This generates a random diagonal matrix
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task7/randomDiagonalMatrix.md)
+
+### Hilbert Matrix Generator
+
+This generates a Hilbert matrix using user input to specify the dimension
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task8/generateHilbertMatrix.md)
+
 ***
 
 ## System Solvers
@@ -119,6 +126,25 @@ This program solves a lower triangular matrix system using backsubstitution
 This program solves a system involving a diagonal matrix
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task7/diagonalMatrixSolver.md)
+
+### Square Matrix System Solver Using Gaussian Elimination
+
+This program solves a system involving a square matrix by using Gaussian Elimination and backsubstitution
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task8/gaussianEliminationSystemSolution.md)
+
+### LU System Solver Using Gaussian Elimination
+
+This program takes as input the LU factorization of a matrix and solves the system
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task8/luSolve.md)
+
+### Gaussian Elimination with Scaled Partial Pivoting
+
+This program solves a square linear system using Gaussian elimination and scaled partial pivoting.
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task8/GaussianScaledPartialPivoting.md)
+
 ***
 
 ## Matrix Factorizations
@@ -128,6 +154,12 @@ This program solves a system involving a diagonal matrix
 This program reduces a matrix into row echelon form
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task7/rowEchelon.md)
+
+### LU Matrix Factorization
+
+This program producest the LU factorization of a matrix
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task8/LUdecomposition.md)
 
 
 
