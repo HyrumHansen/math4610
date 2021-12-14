@@ -57,3 +57,32 @@ Numpy Method
 ------------
 (487.44993918001734+0j)
 ```
+
+### Question 3:
+
+Code was written to calculate the 1-norm of a matrix (in other words, the maximum of the column sums). Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task10/1matrixNorm.md). The function was tested on a 100x100 diagonally dominant matrix and compared to numpy's norm function. The two were found to be consistend. Example usage is given below:
+
+```python
+matrix = MG.diagonallyDominantMatrix()
+
+print("Custom Method:")
+print("------------")
+print(MO.oneMatrixNorm(matrix))
+print("Numpy Method")
+print("------------")
+print(np.linalg.norm(matrix, 1))
+```
+
+and the corresponding output:
+
+```python
+Enter the dimension of the square matrix: 100
+Custom Method:
+------------
+847
+Numpy Method
+------------
+847.0
+```
+
+
