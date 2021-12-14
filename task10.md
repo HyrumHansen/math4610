@@ -85,4 +85,59 @@ Numpy Method
 847.0
 ```
 
+### Question 4:
+
+Code was written to calculate the infinit-norm of a matrix (in other words, the maximum of the row sums). Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task10/1matrixNorm.md). The function was tested on a 100x100 diagonally dominant matrix and compared to numpy's norm function. The two were found to be consistend. Example usage is given below:
+
+```python
+matrix = MG.diagonallyDominantMatrix()
+
+print("Custom Method:")
+print("------------")
+print(MO.infinityNorm(matrix))
+print("Numpy Method")
+print("------------")
+print(np.linalg.norm(matrix, np.inf))
+```
+
+and the corresponding output:
+
+```python
+Enter the dimension of the square matrix: 100
+Custom Method:
+------------
+839
+Numpy Method
+------------
+839.0
+```
+
+### Question 5: 
+
+Code was written to compute the condition number of a matrix. The function estimated eigenvalues using the power method and inverse power method functions defined above. Implementation details may be found [here](https://github.com/HyrumHansen/math4610/blob/main/code/task10/conditionNumber.md). The method was compared to numpy's condition number function to assess accuracy. The two values were fairly close to one another. An example is given below:
+
+```python
+matrix = MG.diagonallyDominantMatrix()
+
+print("Matrix Condition Number:")
+print("------------")
+print(MO.conditionNumber(matrix))
+print("Numpy Method")
+print("------------")
+print(np.linalg.cond(matrix))
+```
+
+and the corresponding output:
+
+```python
+Enter the dimension of the square matrix: 100
+Matrix Condition Number:
+------------
+1.6386995143959917
+Numpy Method
+------------
+1.6641666266031336
+```
+
+
 
