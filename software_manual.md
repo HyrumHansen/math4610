@@ -160,6 +160,79 @@ This program reduces a matrix into row echelon form
 This program producest the LU factorization of a matrix
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task8/LUdecomposition.md)
+***
+
+## Vector Operations
+
+### Vector Addtion
+
+This program adds two vectors of the same length
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/vectorAdd.md)
+
+### Vector Subtraction
+
+This program subtracts two vectors of the same length
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/vectorSubtract.md)
+
+### Vector/Scalar Multipliction
+
+This program multiplies each entry in a vector by a given scalar
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/scalarMultiplication.md)
+
+### Dot Product
+
+This program computes the dot product between two vectors of the same length
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/dotProduct.md)
+
+### Outer Product
+
+This program computes the outer product between two vectors of the same length
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/outerProduct.md)
+
+### L1 Norm
+
+This program computes the L1 Norm of a vector
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l1norm.md)
+
+### L2 Norm
+
+This program computes the L2 Norm of a vector
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l2norm.md)
+
+### Max Norm
+
+This program computes the Max Norm of a vector
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/maxNorm.md)
+
+### L1 Error
+
+This program computes the L1 error between two vectors
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l1Error.md)
+
+### L2 Error
+
+This program computes the L2 error between two vectors
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/l2Error.md)
+
+### Max Error
+
+This program computes the max error between two vectors
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/maxError.md)
+***
+
+
+
 
 
 
