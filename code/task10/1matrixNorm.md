@@ -35,7 +35,7 @@ def oneMatrixNorm(matrix):
     for i in range(len(newMatrix)):
         sum = 0
         for j in range(len(newMatrix[i])):
-            sum += newMatrix[i][j]
+            sum += abs(newMatrix[i][j])
         colSums.append(sum)
     return max(colSums)
 ```
