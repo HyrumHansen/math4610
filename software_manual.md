@@ -73,7 +73,7 @@ This function approximates the root of a single-variable function using the Bise
 [https://github.com/HyrumHansen/math4610/blob/main/code/task5/HybridMethod.md](https://github.com/HyrumHansen/math4610/blob/main/code/task5/SecantMethod.md)
 ***
 
-## Matrix Generators and Operators
+## Matrix Generators
 
 ### Upper Triangular Matrix Generator
 
@@ -98,6 +98,9 @@ This program generates a random square matrix
 This generates a random diagonal matrix
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task7/randomDiagonalMatrix.md)
+***
+
+## System Solvers
 
 ### Upper Triangular Matrix System Solver
 
@@ -116,6 +119,15 @@ This program solves a lower triangular matrix system using backsubstitution
 This program solves a system involving a diagonal matrix
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task7/diagonalMatrixSolver.md)
+***
+
+## Matrix Factorizations
+
+### Row Echelon Matrix Reducer
+
+This program reduces a matrix into row echelon form
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task7/rowEchelon.md)
 
 
 
