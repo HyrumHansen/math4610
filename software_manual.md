@@ -269,11 +269,41 @@ This computes the multiplication between a matrix and a vector
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matVecMult.md)
 
-### Matrix/Vector Multiplication
+### Matrix/Matrix Multiplication
 
 This computes the product of two rectangular matrices with compatible dimensions
 
 [Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task9/matrixMult.md)
+
+### Power Method
+
+This computes the largest eigenvalue of a matrix using the power method
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task10/powerMethod.md)
+
+### Inverse Power Method
+
+This estimates the smallest eigenvalue of a matrix using the inverse power method
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task10/invPowerMethod.md)
+
+### Matrix 1-Norm
+
+This computes the 1-norm of a matrix
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task10/1matrixNorm.md)
+
+### Matrix Infinity-Norm
+
+This computes the infinity norm of a matrix
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task10/1matrixNorm.md)
+
+### Matrix Condition Number
+
+This computes the condition number of a matrix
+
+[Click Here for More Information](https://github.com/HyrumHansen/math4610/blob/main/code/task10/conditionNumber.md)
 
 
 
